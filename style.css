@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Roboto+Mono&display=swap');
+
+
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(170, 212, 198);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.reposCard{
+    border: 1px solid black;
+    width: 20%;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+    flex-wrap: wrap;
+    overflow-x:hidden;
+    background-color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    padding: 30px;
+    border: 1px solid grey;
+    border-top: none;
+    border-left: none;
+    background-color: rgb(97, 187, 187);
+    font-family: 'Montserrat', sans-serif;
+}
+.form label{
+    font-size: 35px;
+}
+.form button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(186, 255, 186);
+    color: rgb(24, 21, 17);
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+
+}
+.form input{
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 15px;
+   /* border: none;*/
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.userInfo{
+    margin-top: 30px;
+}
+.userInfo img{
+    border-radius: 50px;
+}
+.userInfo h2{
+    font-size: 30px;
+}
+.userInfo p {
+    font-size: 20px;
+}
+#error{
+    color:red;
+    font-size: 15px;
+}
+.none{
+    display: none;
+}
